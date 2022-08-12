@@ -27,10 +27,8 @@ public class AssertionTask_Khalid {
      -Click on "double click me" button
      -Validate displayed message after click is equal to "You have done a double click"
      */
-
     WebDriver driver; // If we declare and initialize WebDriver inside setup() method we won't be able to access from test methods
     // so we need to declare WebDriver as a global variable for this class so we can access from all methods!
-
 
     @BeforeMethod
     public void setup() {

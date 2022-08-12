@@ -1,0 +1,10 @@
+<!-- Adding multiple classes under <class>  -->
+
+<suite name = "Test Suite for multiple classes">
+    <test name = "Test">
+        <classes>
+            <class name = "Day1._01_TestNG_TestAnnotation"></class>
+            <class name = "Day1._02_TestNG_BeforeAfterMethod"></class>
+        </classes>
+    </test>
+</suite>

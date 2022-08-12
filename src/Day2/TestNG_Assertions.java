@@ -2,7 +2,6 @@ package Day2;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import java.util.NoSuchElementException;
 import java.util.Random;
 

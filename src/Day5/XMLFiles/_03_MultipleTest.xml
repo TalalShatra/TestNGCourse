@@ -1,0 +1,19 @@
+<!-- Tests inside same <Suite> should have different names -->
+
+<suite name = "Test Suite for multiple tests">
+
+    <test name = "Test1">
+        <classes>
+            <class name = "Day1._02_TestNG_BeforeAfterMethod"></class>
+        </classes>
+    </test>
+
+    <test name = "Test2">
+        <classes>
+            <class name = "Day1._02_TestNG_BeforeAfterMethod"></class>
+        </classes>
+    </test>
+
+</suite>
+
+<!-- We're going to use multiple <test> tags when we need to provide different data or different browser -->
